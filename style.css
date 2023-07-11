@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@100;300&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat&family=Space+Mono&display=swap');
+
+html{
+    height: 100% /* IMPORTANT */
+}
+
+body{
+    background-color:#FFFFFF; 
+}
+
+.container {
+    position: absolute;
+    top: 265px;
+    bottom: 349px;
+    left:77px;
+    right: 119px;
+}
+
+.scarecrow{
+
+
+    position: absolute;
+    left: 5.35%;
+    right: 57.21%;
+    top: 24.54%;
+    bottom: 34.03%;
+
+    
+}
+
+.scarecrow img{
+
+    /* Scarecrow */
+    width: 539.22px;
+    height: 447.43px;
+    top: 265px;
+    left: 77px;
+    
+}
+
+
+.error{
+    position: absolute;
+    width: 133px;
+    height: 25px;
+    top:40px;
+    left:77px; 
+
+}
+
+.error h1{
+
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25.18px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+
+    color: #333333;
+}
+
+
+
+.message{
+    position: absolute;
+    width: 586px;
+    height: 190px;
+    left: 735px;
+    top: 265px;
+}
+
+.message h2{
+    
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+
+    color: #333333;
+
+}
+
+.why{
+
+    /* The page you are looking for might be removed or is temporarily unavailable */
+
+    position: absolute;
+    width: 381px;
+    height: 108px;
+    left: 736px;
+    top: 491px;
+
+}
+
+.why p {
+    
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+
+    /* Gray 2 */
+    color: #4F4F4F;
+}
+
+
+.button button{
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    left: 740px;
+    top: 663px;
+    
+    border-radius: 8px;
+    background: #333333;
+}
+.button p{
+    
+    /* Back to homepage */
+
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size:19px;
+    line-height: 21px;
+
+    /* identical to box height */
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.footer{
+
+    /* created by kakao13 - devChallenges.io */
+
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 577px;
+    top: 1039px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 14px;
+
+    /* identical to box height */
+    line-height: center;    
+
+    color: #BDBDBD;
+}
